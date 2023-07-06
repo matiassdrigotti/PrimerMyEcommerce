@@ -23,8 +23,9 @@ const MainScreen = () => {
                 id: list.length + 1,
                 task: input,
                 completed: false
-            }
-        ])
+            },
+        ]);
+        setInput('')
     }
 
     const onPressTask = (task) => {
